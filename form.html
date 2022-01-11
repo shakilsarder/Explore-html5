@@ -6,9 +6,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        fieldset {
+            width: 200px;
+        }
+    </style>
 </head>
 
 <body>
+
+    <h1>Registration Here</h1>
+    <form action="">
+        <p>
+            Your Name <input type="text" name="name" placeholder="Enter Your Name" id="">
+        </p>
+        <p>
+            Your Email<input type="text" name="email" placeholder="Enter Your Email" id="">
+        </p>
+        <p>
+            Your Number <input type="text" name="number" placeholder="Enter Your Phone" id="">
+        </p>
+        <fieldset>
+            <legend>Select Your Gender</legend>
+            <p>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+            </p>
+            <p>
+                <label for="fermale">Female</label>
+                <input type="radio" name="gender" id="female">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select Your Expertise</legend>
+            <p>
+                <lebel><input type="checkbox" name="expertise" id="">MS Word</lebel>
+            </p>
+            <p>
+                <lebel><input type="checkbox" name="expertise" id="">Excel</lebel>
+            </p>
+            <p>
+                <lebel><input type="checkbox" name="expertise" id="">Graphics Design</lebel>
+            </p>
+        </fieldset>
+        <p>
+            Special Notes
+            <br>
+            <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
 
 </body>
 
