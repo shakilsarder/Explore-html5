@@ -16,3 +16,15 @@ nav li:hover{
     border-radius: 5px;
     padding: 0px 10px;
 }
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: orangered;
+    padding: 0;
+}
+nav > ul > li:hover > ul{
+    display: block;
+}
+.dropdown li{
+    margin: 0;
+}
